@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      // backgroundImage: {
+      //   'hero-image': "url('./image.png')", // Add your custom image here
+      // },
     },
   },
   plugins: [],
