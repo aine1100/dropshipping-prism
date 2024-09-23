@@ -18,7 +18,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="flex flex-wrap items-center justify-between px-5 md:px-10 py-5 bg-white gap-5 md:gap-10 text-[#2C2D5B]">
+      <div className="flex flex-wrap items-center justify-between px-5 md:px-10 py-5 bg-white gap-5 md:gap-8 text-[#2C2D5B]">
         <div className="flex items-center gap-2">
           <Image src={Logo} alt="Logo" className="w-[40px] h-[40px] md:w-auto md:h-auto" />
           <h1 className="text-[24px] md:text-[30px] font-bold text-[#2C2D5B]">
@@ -43,7 +43,7 @@ export default function Navbar() {
           ))}
         </div>
 
-        <div className="flex  gap-4 md:gap-8 items-center">
+        <div className="flex gap-4 md:gap-8 items-center justify-center pl-12 md:pl-0">
           <button className="w-28 h-10 md:w-32 md:h-12 rounded-md border-2 border-[#2C2D5B] bg-white text-[16px] md:text-[20px] hover:bg-[#2C2D5B] hover:text-white">
             Login
           </button>
@@ -63,7 +63,6 @@ export default function Navbar() {
               </Link>
             </div>
           ))}
-       
         </div>
       )}
     </>
